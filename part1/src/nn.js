@@ -1,7 +1,7 @@
 import 'babel-polyfill';
 import * as tf from '@tensorflow/tfjs';
-import { CANVAS_WIDTH, CANVAS_HEIGHT } from '../game/constants';
-import { Runner } from '../game';
+import { CANVAS_WIDTH, CANVAS_HEIGHT } from './game/constants';
+import { Runner } from './game';
 // import NNModel from '../ai/models/nn/NNModel';
 
 let runner = null;
