@@ -1,6 +1,6 @@
-#GeneticAlgorithms
+# GeneticAlgorithms
 
-##Part 1
+## Part 1
 -Automating The Chrome Dino Game using Neural Networks and Tensorflow.js
 -To Run clone this repo and follow the commands
 ```sh
