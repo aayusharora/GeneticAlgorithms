@@ -6,4 +6,5 @@
 ```sh
   cd part1
   npm install
-  npm run```
+  npm run
+```
