@@ -1,13 +1,13 @@
-# tensorflow-rex-run
+# Automating the Chrome Dinosaur game
 
-A TensorFlow.js based AI player platform for T-Rex Runner.
+A TensorFlow.js based AI for playing chrome dino game.
 
 
-## About T-Rex Runner Game
+## About
 
 ![](https://9to5google.files.wordpress.com/2015/06/pterodactyl.png?w=1600&h=1000)
 
-[T-Rex Runner](http://www.omgchrome.com/chrome-easter-egg-trex-game-offline/) is [originally](https://cs.chromium.org/chromium/src/components/neterror/resources/offline.js?q=t-rex+package:%5Echromium$&dr=C&l=7) an easter egg game inside chrome's offline error page.
+[Chome dino game](http://www.omgchrome.com/chrome-easter-egg-trex-game-offline/) is [originally](https://cs.chromium.org/chromium/src/components/neterror/resources/offline.js?q=t-rex+package:%5Echromium$&dr=C&l=7) an easter egg game inside chrome's offline error page.
 
 
 ## About TensorFlow.js
@@ -17,21 +17,7 @@ Visit the [official website](https://js.tensorflow.org/) to discover more.
 
 
 ## About This Project
-
-`t-trex-run` is an artificial intelligent player platform designed for T-Rex Runner, and enpowered by TensorFlow.js.
-
-![](https://github.com/MagicCube/t-rex-run/blob/master/ScreenFlow.gif?raw=true)
-
-## Key Features
-
-* Totally rewritten in ES6/ES7, LESS and Webpack
-* Multiplayer mode supported (means you can use genetic algorithm now)
-* Events like `onReset`, `onRunning` and `onCrushed` are supported
-* Example models are provided
-
-
----
-
+This is the code for part 1 of the blog series Automating the Chrome Dinosaur game, in the project we use the simple Tensorflow.js API to make a neural network which plays the chrome dino game ,while learning from its mistakes just like a human brain.
 
 ## How to Install
 
