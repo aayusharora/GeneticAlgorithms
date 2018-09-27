@@ -1,7 +1,7 @@
 {
-  "name": "t-rex-run",
+  "name": "chrome-dino-game",
   "version": "1.0.0",
-  "description": "A TensorFlow.js based AI player platform for T-Rex Runner. T-Rex Runner is originally an easter egg game inside chrome.",
+  "description": "A TensorFlow.js based AI player platform for chrome dino game.the dinosaur game is originally an easter egg game inside chrome.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -20,7 +20,7 @@
     "multiplayer",
     "game"
   ],
-  "author": "Henry Li <henry1943@163.com>",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
