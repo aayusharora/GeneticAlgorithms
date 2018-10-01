@@ -7,7 +7,7 @@ A TensorFlow.js based AI for playing chrome dino game.
 
 ![](https://9to5google.files.wordpress.com/2015/06/pterodactyl.png?w=1600&h=1000)
 
-[Chome dino game](http://www.omgchrome.com/chrome-easter-egg-trex-game-offline/) is [originally](https://cs.chromium.org/chromium/src/components/neterror/resources/offline.js?q=t-rex+package:%5Echromium$&dr=C&l=7) an easter egg game inside chrome's offline error page.
+[Chrome dino game](http://www.omgchrome.com/chrome-easter-egg-trex-game-offline/) is [originally](https://cs.chromium.org/chromium/src/components/neterror/resources/offline.js?q=t-rex+package:%5Echromium$&dr=C&l=7) an easter egg game inside chrome's offline error page.
 
 
 ## About TensorFlow.js
