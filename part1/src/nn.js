@@ -26,7 +26,7 @@ let firstTime = true;
 
 function handleReset(dinos) {
   // running this for single dino at a time
-  console.log(dinos);
+  // console.log(dinos);
   
   const dino = dinos[0]; 
   // if the game is being started for the first time initiate 

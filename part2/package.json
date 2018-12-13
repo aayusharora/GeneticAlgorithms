@@ -1,7 +1,7 @@
 {
   "name": "chrome-dino-game",
   "version": "1.0.0",
-  "description": "A TensorFlow.js based AI player platform for chrome dino game.The dinosaur game is originally an easter egg game inside chrome.",
+  "description": "A TensorFlow.js based AI player platform for chrome dino game. The dinosaur game is originally an easter egg game inside chrome.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
@@ -21,7 +21,7 @@
     "game"
   ],
   "author": "pratyush goel",
-  "license": "MIT",
+  "license": "",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.2",
@@ -42,11 +42,10 @@
     "url-loader": "^1.0.1",
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.14",
-    "webpack-dev-server": "^3.1.3"
+    "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
     "@tensorflow/tfjs": "^0.9.0",
-    "babel-polyfill": "^6.26.0",
-    "dev": "^0.1.3"
+    "babel-polyfill": "^6.26.0"
   }
 }
