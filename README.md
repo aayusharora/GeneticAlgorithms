@@ -8,3 +8,12 @@ Automating The Chrome Dino Game using Neural Networks and Tensorflow.js
   npm install
   npm run
 ```
+
+## Part 2
+Automating The Chrome Dino Game using Genetic Algorithms
+* To Run clone this repo and follow the commands
+```sh
+  cd part2
+  npm install
+  npm run
+```
