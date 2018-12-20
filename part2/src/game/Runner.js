@@ -32,7 +32,6 @@ export default class Runner {
     SPEED: 6,
     SPEED_DROP_COEFFICIENT: 3,
     DINO_COUNT: 1,
-    // Events
     onReset: noop,
     onRunning: noop,
     onCrash: noop
@@ -167,7 +166,7 @@ export default class Runner {
     );
 
     // Draw t-rex
-    this.tRexGroup = new TrexGroup(this.config.T_REX_COUNT, this.canvas, this.spriteDef.TREX);
+    this.tRexGroup = new TrexGroup(this.config.DINO_COUNT, this.canvas, this.spriteDef.TREX);
     this.tRexGroup.onRunning = this.config.onRunning;
     this.tRexGroup.onCrash = this.config.onCrash;
     this.tRex = this.tRexGroup.tRexes[0];

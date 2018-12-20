@@ -4,41 +4,48 @@ import { Runner } from '../game';
 import GeneticModel from '../ai/models/genetic/GeneticModel';
 import RandomModel from '../ai/models/random/RandomModel';
 
-const DINO_COUNT= 10;
+// const DINO_COUNT = 10;
 
 let runner = null;
 
 const rankList = [];
 const geneticModel = new GeneticModel();
 
+let firstTime = true;
+
 function setup() {
   // Initialize the game Runner.
   runner = new Runner('.game', {
-    DINO_COUNT,
+    DINO_COUNT:10,
     onReset: handleReset,
     onCrash: handleCrash,
     onRunning: handleRunning
   });
   // Set runner as a global variable if you need runtime debugging.
   window.runner = runner;
+  // console.info(runner)
   // Initialize everything in the game and start the game.
   runner.init();
 }
 
-let firstTime = true;
-function handleReset( Dinos ) {
+
+function handleReset(Dinos) {
   if (firstTime) {
-    // Initialize all the tRexes with random models
-    // for the very first time.
     firstTime = false;
+    // console.info("in here")
+    // console.info(Dinos)
     Dinos.forEach((dino) => {
+      // console.info("happened");
       dino.model = new RandomModel();
       dino.model.init();
     });
-  } else {
+
+  }
+  else {
     // Train the model before restarting.
     console.info('Training');
     const chromosomes = rankList.map((dino) => dino.model.getChromosome());
+    // console.info(chromosomes)
     // Clear rankList
     rankList.splice(0);
     geneticModel.fit(chromosomes);
@@ -48,7 +55,7 @@ function handleReset( Dinos ) {
   }
 }
 
-function handleRunning( dino, state ) {
+function handleRunning(dino, state) {
   let action = 0;
   if (!dino.jumping) {
     action = dino.model.predictSingle(convertStateToVector(state));
@@ -56,7 +63,8 @@ function handleRunning( dino, state ) {
   return action;
 }
 
-function handleCrash( dino ) {
+function handleCrash(dino) {
+  // console.info("i was called")
   if (!rankList.includes(dino)) {
     rankList.unshift(dino);
   }

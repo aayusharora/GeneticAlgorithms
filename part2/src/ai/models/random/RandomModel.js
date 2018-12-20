@@ -5,6 +5,7 @@ export default class RandomModel extends Model {
   biases = [];
 
   init() {
+    // console.info("i happened");
     this.randomize();
   }
 
