@@ -22,7 +22,7 @@ This is the code for part 2 of the blog series Automating the Chrome Dinosaur ga
 ## How to Install
 
 ```sh
-npm install
+npm run build
 ```
 
 
@@ -30,7 +30,7 @@ npm install
 
 
 ```sh
-npm start
+npm run start
 ```
 
 Visit http://localhost:8080
