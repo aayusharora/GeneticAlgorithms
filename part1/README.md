@@ -17,7 +17,7 @@ Visit the [official website](https://js.tensorflow.org/) to discover more.
 
 
 ## About This Project
-This is the code for part 1 of the blog series Automating the Chrome Dinosaur game, in the project we use the simple Tensorflow.js API to make a neural network which plays the chrome dino game ,while learning from its mistakes just like a human brain.
+This is the code for part 1 of the blog series Automating the Chrome Dinosaur game, in the project we use the simple Tensorflow.js API to make a neural network which plays the chrome dino game, while learning from its mistakes just like a human brain.
 
 ## How to Install
 
