@@ -1,4 +1,4 @@
-# Automating the Chrome Dinosaur Game
+# Automating the Chrome Dinosaur game
 
 A TensorFlow.js based AI for playing chrome dino game.
 
